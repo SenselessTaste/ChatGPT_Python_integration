@@ -1,0 +1,12 @@
+User: who was the first man on the moon?
+
+ChatGPT: The first man on the moon was Neil Armstrong.
+========================================================
+User: where is he from?
+
+ChatGPT: The first man on the moon was Neil Armstrong, and he was from Wapakoneta, Ohio, United States.
+========================================================
+User: how tall is he?
+
+ChatGPT: The first man on the moon was Neil Armstrong. He was from Wapakoneta, Ohio, in the United States. As for his height, Neil Armstrong stood at approximately 5 feet 10 inches (178 cm) tall.
+========================================================
