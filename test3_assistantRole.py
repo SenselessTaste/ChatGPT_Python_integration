@@ -23,8 +23,8 @@ while True:
     
     # Check if the user wants to exit the loop (enter 'q' to quit)
     if content == 'q':
-         print("\nChat closed.") 
-         break
+        print("\nChat closed.") 
+        break
     
     # Append the user's input to the list of messages
     messages.append({"role": "user", "content": content})
