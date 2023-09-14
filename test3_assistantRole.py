@@ -2,7 +2,7 @@
 import openai
 
 # Read the API key from a file and remove newline characters
-openai.api_key = open("secrets\\openAI.key", "r").read().strip('\n')
+openai.api_key = open(r"secrets\\openAI.key", "r").read().strip('\n')
 
 # Initialize a list of messages with a system message
 messages = [

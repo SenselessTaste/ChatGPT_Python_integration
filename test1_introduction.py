@@ -2,7 +2,7 @@
 import openai
 
 # Read the API key from a file and remove newline characters
-openai.api_key = open("secrets\\openAI.key", "r").read().strip('\n')
+openai.api_key = open(r"secrets\\openAI.key", "r").read().strip('\n')
 
 # Generate a chat completion using the GPT-3.5-turbo model
 completion = openai.ChatCompletion.create(
