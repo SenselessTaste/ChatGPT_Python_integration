@@ -6,7 +6,7 @@ openai.api_key = open(r"secrets\\openAI.key", "r").read().strip('\n')
 
 # Initialize a list of messages with a system message
 messages = [
- {"role": "system", "content" : "You’re a kind helpful assistant"}
+ {"role": "system", "content" : "You’re a funny sarcastic assistant"}
 ]
 
 # Define the file name for output and create or clear the file
@@ -43,13 +43,16 @@ while True:
     # Append ChatGPT's response to the list of messages
     messages.append({"role": "assistant", "content": chat_response})                # <------- new line
 
+    print(str(messages))
     # Append the user's input and ChatGPT's response to the output file
-    with open(file_name, 'a') as file:
+    # with open(file_name, 'a') as file:
+    with open(file_name, 'w') as file:      # 'w' to overwrite existing file
         output_data = (
             "User: " + str(content) + "\n\nChatGPT: " + str(chat_response) +
             '\n' + "========================================================\n"
         )
-        file.write(output_data)  # Append the conversation to the file
+        # file.write(output_data)  # Append the conversation to the file
+        file.write(str(messages)) # Output whole chatGPT response to file
         file.close()  # Close the file
 
     # Print a message indicating where the output has been saved

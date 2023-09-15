@@ -8,7 +8,7 @@ openai.api_key = open(r"secrets\\openAI.key", "r").read().strip('\n')
 completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=[
-        {"role": "user", "content": "Tell the world about the ChatGPT API in the style of a pirate in 100 words."}
+        {"role": "user", "content": "Do you wanna make a snowman?"}
     ]
 )
 
