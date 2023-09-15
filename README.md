@@ -12,7 +12,7 @@ Installation requirements.txt:
 
         PS C:\Users\Ivor-Virtual\Documents\GitHub\ChatGPT_Python_integration> pip install -r requirements.txt
 
-    In this way openai library is installed, so there is no need for > pip install openai
+    This way openai library is installed, so there is no need for > pip install openai
 
 
 
