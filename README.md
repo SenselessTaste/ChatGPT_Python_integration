@@ -1,11 +1,11 @@
 This project is tested in Python 3.11.4 64-bit
 
-Maybe not compatible with older versions.
+Possibly not compatible with older versions.
 
-Download the repository as .zip, extract it to your folder, and after installation of requirements.txt run examples.
+Download the repository as .zip, extract it to your folder, and after installation of requirements.txt run test examples.
 
 
-Installation of requirements.txt:
+Installation requirements.txt:
     Open project folder location in PowerShell: 
 
         PS C:\Users\Ivor-Virtual> cd "PATH_TO_ChatGPT_Python_integration"   # (optional, only if not already located in the project folder)
